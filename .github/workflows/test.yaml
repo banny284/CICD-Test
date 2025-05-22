@@ -26,7 +26,5 @@ jobs:
 
       - name: Run tests
         run: |
-          # Create tests directory if it doesn't exist
-          mkdir -p tests
           # Run pytest with verbose output
           pytest tests/ -v
